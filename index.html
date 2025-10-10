@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>自适应Hello World - vw单位</title>
+    <title>自适应 Criminal: Germany - vw单位</title>
     <style>
         * {
             margin: 0;
@@ -12,22 +12,20 @@
         }
         
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
             background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             padding: 20px;
+            min-height: 100vh; 
         }
         
         .container {
-            text-align: center;
+            text-align: left;
             background-color: rgba(255, 255, 255, 0.95);
             padding: 5vw;
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
             max-width: 90%;
+            margin: 20px auto;
             transition: transform 0.3s ease;
         }
         
@@ -42,39 +40,41 @@
             font-weight: 700;
             margin-bottom: 2vw;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: left;
         }
         
         .subtitle {
             font-size: 2.5vw;
             color: #666;
             margin-bottom: 3vw;
+            text-align: left;
         }
         
         .description {
             font-size: 1.8vw;
             color: #777;
             line-height: 1.5;
-            max-width: 80%;
-            margin: 0 auto;
+            max-width: 100%;
+            margin: 0;
         }
         
         /* 对于非常大的屏幕，限制最大字体大小 */
         @media (min-width: 1200px) {
             .hello-world {
-                font-size: 72px; /* 相当于6vw在1200px宽度时 */
+                font-size: 72px;
             }
             .subtitle {
-                font-size: 30px; /* 相当于2.5vw在1200px宽度时 */
+                font-size: 30px;
             }
             .description {
-                font-size: 22px; /* 相当于1.8vw在1200px宽度时 */
+                font-size: 22px;
             }
         }
         
         /* 对于非常小的屏幕，确保字体不会太小 */
         @media (max-width: 480px) {
             .hello-world {
-                font-size: 28px; /* 最小字体大小 */
+                font-size: 28px;
             }
             .subtitle {
                 font-size: 16px;
@@ -90,12 +90,13 @@
             color: #888;
             border-top: 1px solid #eee;
             padding-top: 2vw;
+            text-align: left;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="hello-world">Hello World!</div>
+        <div class="hello-world">Criminal: Germany</div>
 <p>00:00:30,200 --> 00:00:31,720</p>
 <p> [Vibrationsalarm]</p>
 
